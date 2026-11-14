@@ -7,7 +7,7 @@ public:
             
             vector<int> row(i + 1, 1);
             
-           
+            
             for (int j = 1; j < i; ++j) {
                 row[j] = result[i - 1][j - 1] + result[i - 1][j];
             }
